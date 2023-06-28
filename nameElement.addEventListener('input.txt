@@ -1,0 +1,38 @@
+nameElement.addEventListener('input', e => {
+  if (e.target.value !== '') {
+    nameCardElement.textContent = e.target.value;
+  } else {
+    nameCardElement.textContent = 'JANE APPLEESED';
+  }
+});
+numberElement.addEventListener('input', e => {
+  if (e.target.value !== '') {
+    numberCardElement.textContent = e.target.value;
+  } else {
+    numberCardElement.textContent = '0000 0000 0000 0000';
+  }
+});
+
+monthElement.addEventListener('input', e => {
+  if (e.target.value !== '') {
+    monthCardElement.textContent = e.target.value;
+  } else {
+    monthCardElement.textContent = '00';
+  }
+});
+
+yearElement.addEventListener('input', e => {
+  if (e.target.value !== '') {
+    yearCardElement.textContent = e.target.value;
+  } else {
+    yearCardElement.textContent = '00';
+  }
+});
+
+cvcElement.addEventListener('input', e => {
+  if (e.target.value !== '') {
+    cvcCardElement.textContent = e.target.value;
+  } else {
+    cvcCardElement.textContent = '000';
+  }
+});
